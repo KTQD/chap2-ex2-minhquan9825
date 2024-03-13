@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    float cao, rong, chuvi;
+     float height, width, perimeter;
 
-    printf("Nhap chieu cao cua chu vi : ");
-    scanf("%f", &cao);
+    printf("Enter the height of the rectangle: ");
+    scanf("%f", &height);
 
-    printf("Nhap chieu rong cua chu vi: ");
-    scanf("%f", &rong);
+    printf("Enter the width of the rectangle: ");
+    scanf("%f", &width);
 
-    chuvi = 2 * (cao  + rong);
-    
-    printf("Chu vi cua hinh chu nhat la: %.2f\n", chuvi);
+    // Calculate the perimeter
+    perimeter = 2 * (height + width);
+
+    // Print the perimeter
+    printf("The perimeter of the rectangle is: %.2f\n", perimeter);
 
     return 0;
 }
