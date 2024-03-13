@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-     float height, width, perimeter;
+     int height, width, perimeter;
 
     printf("Enter the height and width of the rectangle: ");
     scanf("%d" %d", &height, &width);
